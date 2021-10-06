@@ -1,0 +1,6 @@
+framework module Pods_PandemicVisualiser_PandemicVisualiserUITests {
+  umbrella header "Pods-PandemicVisualiser-PandemicVisualiserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
