@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CE421FAE30AC707657D74D0 /* Pods_PandemicVisualiser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2ECBC80E044C14A04FBC31 /* Pods_PandemicVisualiser.framework */; };
 		20D8D2E2270DD2A800EFA0DC /* PandemicVisualiserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8D2E1270DD2A800EFA0DC /* PandemicVisualiserApp.swift */; };
 		20D8D2E4270DD2A800EFA0DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8D2E3270DD2A800EFA0DC /* ContentView.swift */; };
 		20D8D2E6270DD2B300EFA0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D8D2E5270DD2B300EFA0DC /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		20D8D2F9270DD2B300EFA0DC /* PandemicVisualiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8D2F8270DD2B300EFA0DC /* PandemicVisualiserTests.swift */; };
 		20D8D304270DD2B300EFA0DC /* PandemicVisualiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8D303270DD2B300EFA0DC /* PandemicVisualiserUITests.swift */; };
 		20D8D318270DD59800EFA0DC /* CovidFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8D317270DD59800EFA0DC /* CovidFetchRequest.swift */; };
+		78E3843A271B2B22007B3706 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 78E38439271B289B007B3706 /* Script.sh */; };
+		78E3843C271B2BB2007B3706 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3843B271B2BB2007B3706 /* Model.swift */; };
+		78E3843D271B3CCA007B3706 /* Pods_PandemicVisualiser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2ECBC80E044C14A04FBC31 /* Pods_PandemicVisualiser.framework */; };
+		78E3843E271B3CCA007B3706 /* Pods_PandemicVisualiser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2ECBC80E044C14A04FBC31 /* Pods_PandemicVisualiser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D05BC98B91AFD70F2B1DDB4 /* Pods_PandemicVisualiserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD276B4BA69D8F57AC779D1C /* Pods_PandemicVisualiserTests.framework */; };
 		ABD728EF4DC5C22CE14A5459 /* Pods_PandemicVisualiser_PandemicVisualiserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1545064D8DD7FC810EE73211 /* Pods_PandemicVisualiser_PandemicVisualiserUITests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		78E3843F271B3CCB007B3706 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78E3843E271B3CCA007B3706 /* Pods_PandemicVisualiser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1545064D8DD7FC810EE73211 /* Pods_PandemicVisualiser_PandemicVisualiserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandemicVisualiser_PandemicVisualiserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D8D2DE270DD2A800EFA0DC /* PandemicVisualiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandemicVisualiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +74,8 @@
 		20D8D317270DD59800EFA0DC /* CovidFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidFetchRequest.swift; sourceTree = "<group>"; };
 		38910D9466C6DEE01071B8B6 /* Pods-PandemicVisualiser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandemicVisualiser.release.xcconfig"; path = "Target Support Files/Pods-PandemicVisualiser/Pods-PandemicVisualiser.release.xcconfig"; sourceTree = "<group>"; };
 		5F2ECBC80E044C14A04FBC31 /* Pods_PandemicVisualiser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandemicVisualiser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E38439271B289B007B3706 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		78E3843B271B2BB2007B3706 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8A079DF992556BA03D6E01F6 /* Pods-PandemicVisualiser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandemicVisualiser.debug.xcconfig"; path = "Target Support Files/Pods-PandemicVisualiser/Pods-PandemicVisualiser.debug.xcconfig"; sourceTree = "<group>"; };
 		A3A485C9E8CCB7307A8E6C8E /* Pods-PandemicVisualiserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandemicVisualiserTests.debug.xcconfig"; path = "Target Support Files/Pods-PandemicVisualiserTests/Pods-PandemicVisualiserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD276B4BA69D8F57AC779D1C /* Pods_PandemicVisualiserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandemicVisualiserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CE421FAE30AC707657D74D0 /* Pods_PandemicVisualiser.framework in Frameworks */,
+				78E3843D271B3CCA007B3706 /* Pods_PandemicVisualiser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +137,7 @@
 		20D8D2E0270DD2A800EFA0DC /* PandemicVisualiser */ = {
 			isa = PBXGroup;
 			children = (
+				78E38439271B289B007B3706 /* Script.sh */,
 				20D8D2E1270DD2A800EFA0DC /* PandemicVisualiserApp.swift */,
 				20D8D2E3270DD2A800EFA0DC /* ContentView.swift */,
 				20D8D2E5270DD2B300EFA0DC /* Assets.xcassets */,
@@ -126,6 +146,7 @@
 				20D8D2EC270DD2B300EFA0DC /* PandemicVisualiser.xcdatamodeld */,
 				20D8D2E7270DD2B300EFA0DC /* Preview Content */,
 				20D8D317270DD59800EFA0DC /* CovidFetchRequest.swift */,
+				78E3843B271B2BB2007B3706 /* Model.swift */,
 			);
 			path = PandemicVisualiser;
 			sourceTree = "<group>";
@@ -191,6 +212,7 @@
 				20D8D2DB270DD2A800EFA0DC /* Frameworks */,
 				20D8D2DC270DD2A800EFA0DC /* Resources */,
 				3A919BCE33DC3E8F1466920F /* [CP] Embed Pods Frameworks */,
+				78E3843F271B3CCB007B3706 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E3843A271B2B22007B3706 /* Script.sh in Resources */,
 				20D8D2E9270DD2B300EFA0DC /* Preview Assets.xcassets in Resources */,
 				20D8D2E6270DD2B300EFA0DC /* Assets.xcassets in Resources */,
 			);
@@ -419,6 +442,7 @@
 				20D8D318270DD59800EFA0DC /* CovidFetchRequest.swift in Sources */,
 				20D8D2EB270DD2B300EFA0DC /* Persistence.swift in Sources */,
 				20D8D2E4270DD2A800EFA0DC /* ContentView.swift in Sources */,
+				78E3843C271B2BB2007B3706 /* Model.swift in Sources */,
 				20D8D2E2270DD2A800EFA0DC /* PandemicVisualiserApp.swift in Sources */,
 				20D8D2EE270DD2B300EFA0DC /* PandemicVisualiser.xcdatamodeld in Sources */,
 			);
@@ -507,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -562,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
