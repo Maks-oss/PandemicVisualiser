@@ -2,7 +2,7 @@
 //  CovidFetchRequest.swift
 //  PandemicVisualiser
 //
-//  Created by Maksimus on 06.10.2021.
+//  Created by Maksimus on 03.11.2021.
 //
 
 import Foundation

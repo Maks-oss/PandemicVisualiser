@@ -2,7 +2,7 @@
 //  Model.swift
 //  PandemicVisualiser
 //
-//  Created by Олександр Грибинюк on 16.10.2021.
+//  Created by Maksimus on 03.11.2021.
 //
 
 import Foundation
