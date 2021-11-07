@@ -1,56 +1,23 @@
 //
-//  ContentView.swift
+//  SearchView.swift
 //  PandemicVisualiser
 //
-//  Created by Nikita on 18.10.2021.
+//  Created by nikita on 07.11.2021.
 //
 
 import SwiftUI
-import CoreData
 
-struct CountryDataRowView: View {
-    
-    var countryData: CountryData
-    
+struct SearchView: View {
+    @Binding var searchText: String
     
     var body: some View {
-        HStack{
-        Text(countryData.country)
-            .fontWeight(.medium)
-            .font(.subheadline)
-            .lineLimit(2)
-            .frame(width: 110, alignment: .leading)
-
-        
-        Spacer()
-        
-        Text(countryData.confirmed.formatNumber())
-            .font(.subheadline)
-            .frame(height: 40)
-            .padding(.leading, 5)
-        
-        Spacer()
-        
-        Text(countryData.deaths.formatNumber())
-            .frame(width: 50, height: 40, alignment: .center)
-            .font(.subheadline)
-            .padding(.leading, 5)
-            .foregroundColor(.red)
-        
-        Spacer()
-        
-        Text(countryData.recovered.formatNumber())
-            .frame(width: 50, height: 40, alignment: .center)
-            .font(.subheadline)
-            .foregroundColor(.green)
-    }
+        HStack {
+            TextField("Country: ", text: $searchText)
+                .padding()
+        }
+        .frame(height: 50)
+        .background(Color("cardBackgroundGray"))
     }
 }
 
-
-struct CountryDataRowView_Previous: PreviewProvider {
-    static var previews: some View {
-        CountryDataRowView(countryData: testCountryData)
-    }
-}
 
