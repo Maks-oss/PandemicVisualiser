@@ -32,8 +32,10 @@ struct RecentView: View {
                         self.searchText.isEmpty ? true : $0.country.lowercased().contains(self.searchText.lowercased())
                     }, id: \.country) {
                             CountryData in
+                        NavigationLink(destination: CountryDetailView(countryData: CountryData)) {
                         CountryDataRowView(countryData: CountryData)
                         }
+                    }
                 }
             }//End pf VStack
             .navigationBarTitle("Recent data", displayMode: .inline)
