@@ -34,7 +34,7 @@ struct ListHeaderView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.leading, 15)
         }
-        .background(Color.gray)
+        .background(Color("cardBackgroundGray"))
     }
 }
 
